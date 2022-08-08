@@ -246,6 +246,11 @@ button {
   color: var(--clr-white);
   background-color: var(--clr-very-dark-violet);
   cursor: pointer;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: hsl(278, 94%, 30%);
 }
 
 /* DESKTOP VERSION */
