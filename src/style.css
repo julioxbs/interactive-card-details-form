@@ -58,7 +58,7 @@ p {
 /* CARDS SIDE */
 
 .left-side {
-  background-image: url('images/bg-main-mobile.png');
+  background-image: url('../public/images/bg-main-mobile.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -274,6 +274,7 @@ button:hover {
     min-height: 100vh;
     height: 100%;
     width: 100%;
+    background-image: url('../public/images/bg-main-desktop.png');
   }
 
   .card-front {
